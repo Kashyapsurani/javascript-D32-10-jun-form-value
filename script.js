@@ -1,7 +1,7 @@
 function get() {
     let name = document.getElementById("name").value;
     let lname = document.getElementById("pass").value;
-    let add = name + lname;
+    let add = name + " " + lname;
     const selecteditems = []
     const chakoxes = document.querySelectorAll(`input[name = 'item']:checked`)
 
